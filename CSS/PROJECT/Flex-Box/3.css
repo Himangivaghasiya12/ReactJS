@@ -14,6 +14,7 @@ body{
     /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
     flex-wrap: nowrap;
+    margin-top:200px;
 }
 .box-1{
     width:100px;
