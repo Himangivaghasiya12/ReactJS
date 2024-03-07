@@ -1,0 +1,99 @@
+
+
+/* Css Mask */
+
+
+/* .mask1 {
+  -webkit-mask-image: url(../image/batman3_1200.png);
+  mask-image: url(../image/batman3_1200.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;   
+  width: 100%; 
+  
+} */
+
+/* Css Tooltip */
+
+/* .tooltip{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-text{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.tooltip-message{
+  display: none;
+  position: absolute;
+  border:2px solid black;
+  top:-100px;
+  width: fit-content;
+  white-space:pre;
+  left:-150px;
+  padding: 20px;
+  background-color: black;
+  color:white;
+  border-radius: 1.5rem;
+}
+
+.tooltip-text:hover .tooltip-message{
+  display: block;
+}
+.tooltip-text:hover .arrow{
+  margin-top: -70%;
+  left:15px;
+  height:20px;
+  width: 20px;
+  background-color: black;
+  position: absolute;
+  transform: rotate(45deg);
+} */
+
+
+/* DropDown Menu */
+header{
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .nav-item ul{
+    display: flex;
+    list-style-type: none;
+  }
+  .nav-item ul li{
+    margin-left: 50px;
+  }
+  a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+  }
+  .dropdown_menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: chocolate;
+  }
+  .link-item1 ul li{
+    margin: 0;
+  }
+  .dropdown_menu{
+    position: absolute;
+    bottom: -130px;
+    display: none !important;
+  }
+  
+  .link-item1:hover .dropdown_menu{
+    display: block !important;
+  }
