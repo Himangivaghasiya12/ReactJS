@@ -1,0 +1,23 @@
+/* Sass Intepolation Method */
+/* Sass @mixin Method */
+.sass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    text-decoration: none;
+  }
+  
+  .flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+  }
+  
+  /* Sass @extend Method *//*# sourceMappingURL=main.css.map */

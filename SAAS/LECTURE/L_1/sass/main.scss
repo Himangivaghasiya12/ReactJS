@@ -1,0 +1,28 @@
+@use 'main2';
+@import 'variables';
+
+/* Sass Nesting Method */
+
+header{
+    background-color: gray;
+    display: $d-flex;
+    align-items: $align-center;
+    justify-content: $justify-around;
+    .logo img{
+        height: $h-2;
+        width: $w-2;
+    }
+    .nav-items nav ul{
+        display: $d-flex;
+        list-style-type: none;
+        li{
+            margin-right: 50px;
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+                color:white;
+            }
+        }
+    }
+}
