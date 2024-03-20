@@ -1,0 +1,147 @@
+@import 'variable';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.sec1{
+    display: $d-flex;
+    // position:;
+    justify-content: $justify-between;
+    align-items: $align-center;
+    height: 90px;
+    width: 100%;
+}
+.nav1{
+    display: $d-flex;
+    justify-content: $justify-between;
+    ul{
+        display: $d-flex;
+        // justify-content: center;
+        align-items: $align-center;
+        margin-right: 25px;
+        // text-align: center;
+        li{
+            list-style: none;
+            margin: 0 14px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+   .btn{
+    height: 90px;
+    width: 200px;
+    background-color: lightsalmon;
+    // text-align: center;
+    border: none;
+    .t1{
+        height: 30px;
+        // margin-left: -30px;
+    }
+    .t2{
+        text-align: center;
+        // margin-top: 10px;
+        margin-left: 20px;
+        color: aliceblue;
+        
+    }
+   }
+   
+}
+.sec2{
+
+    .overley{
+        // transition: 0.5s ease; 
+        height: 610px; 
+        width: $w-12; 
+        background-color:black; 
+        position: absolute;  
+        inset: 0;
+        opacity: 40%;
+        top: 90px;
+
+        .error {
+            color: white;
+            text-align: center;
+            margin-top:40px;
+        }
+
+        }
+    }
+
+.sec3{
+    .b1{
+        height: 460px;
+        width: $w-12;
+        background-color: aliceblue;
+        position: absolute;
+        inset: 1;
+        margin-top: -50px;
+
+        h1{
+            text-align: center;
+            margin-top: 50px;
+
+            .t1{
+                font-size: 40px;
+            }
+
+            .t2{
+                color: orangered;
+                font-style: italic;
+                margin-left:10px;
+                font-weight: 800;
+                font-size: 40px;
+            }
+        }
+        .p1{
+            text-align: center;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        input[type="text"]{
+            // align-items: center;
+            height: 30px;
+            width: 400px;
+            background: none;
+            margin: 30px;
+            margin-left: 310px;
+            
+        }
+        input[type="email"]{
+            background: none;
+            height: 30px;
+            width: 400px;
+        }
+        input[type="phone"]{
+            height: 30px;
+            width: 830px;
+            background: none;
+            margin-left: 310px;
+            margin-top: -10px;
+
+        }
+        input[type="msg"]{
+            height: 130px;
+            width: 830px;
+            background:none;
+            margin-left: 310px;
+            margin-top: 20px;
+        }
+      input[type="button"]{
+        background-color: orangered;
+        height: 45px;
+        width: 150px;
+        color:white;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 660px;
+      }
+    }
+}
+    

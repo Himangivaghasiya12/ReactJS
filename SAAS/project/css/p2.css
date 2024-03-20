@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.nav1 ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav1 .contact {
+  border-color: orange;
+  background-color: orange;
+}
+
+.sec2 .overley {
+  height: 580px;
+  width: 1380px;
+  background-color: black;
+  position: absolute;
+  inset: 0;
+  opacity: 40%;
+  top: 90px;
+}
+.sec2 .overley .error {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 40px;
+}
+.sec2 .overley .footer {
+  margin-top: 450px;
+  text-align: center;
+}
+.sec2 .overley .footer .who {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.sec2 .overley .footer .speck {
+  color: orangered;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.sec3 .page {
+  height: 380px;
+  width: 1380px;
+  background-color: aliceblue;
+  position: absolute;
+  inset: -1;
+  bottom: 95px;
+}
+.sec3 .page img {
+  border-radius: 50%;
+  margin: 60px;
+  margin-left: 250px;
+}
+.sec3 .page h1 {
+  text-align: center;
+  margin-top: -250px;
+}
+.sec3 .page h1 .o1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.sec3 .page h1 .o2 {
+  font-style: italic;
+  color: orangered;
+  font-weight: bold;
+  font-size: 35px;
+}
+.sec3 .page .p1 {
+  text-align: center;
+  margin-left: 230px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.sec3 .page .p2 {
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 15px;
+}
+.sec3 .page .B1 {
+  height: 40px;
+  width: 130px;
+  background-color: orangered;
+  color: antiquewhite;
+  margin-left: 40%;
+  margin-top: 20px;
+  border: none;
+}
+.sec3 .page .B2 {
+  height: 40px;
+  width: 130px;
+  background: none;
+  border-color: orangered;
+}/*# sourceMappingURL=p2.css.map */

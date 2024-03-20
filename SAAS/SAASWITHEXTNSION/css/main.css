@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.nav1 ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact{
+  border: 2px solid orange;
+  background-color: orange;
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
