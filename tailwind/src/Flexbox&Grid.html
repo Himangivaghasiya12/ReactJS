@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox & Grid</title>
+    <link rel="stylesheet" href="output.css"
+</head>
+<body>
+    <!-- Flex Basis
+    Flex Direction
+    Flex Wrap
+    Flex
+    Flex Grow
+    Flex Shrink
+    Order
+    Grid Template Columns
+    Grid Column Start / End
+    Grid Template Rows
+    Grid Row Start / End
+    Grid Auto Flow
+    Grid Auto Columns
+    Grid Auto Rows
+    Gap
+    Justify Content
+    Justify Items
+    Justify Self
+    Align Content
+    Align Items
+    Align Self
+    Place Content
+    Place Items
+    Place Self -->
+
+   <!-- _____**** 1. Flexbox & Grid ****______   -->
+
+   <!-- flex-basis -->
+
+   <!-- <div class="flex  space-x-5">
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/2">03</div>
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/4">02</div>
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/4 ">01</div>
+    </div> -->
+
+    <!-- flex-direction -->
+
+      <!-- flex-row -->
+
+    <!-- <div class="flex  flex-row ">
+              <div class=" h-28 w-32 bg-orange-300 text-center  ">01</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">02</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">03</div>
+    </div> -->
+
+      <!-- flex-row-reverse -->
+
+    <!-- <div class="flex  flex-row-reverse ">
+              <div class=" h-28 w-32 bg-orange-300 text-center  ">01</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">02</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">03</div>
+    </div> -->
+
+       <!-- flex-col -->
+
+    <!-- <div class="flex  flex-col ">
+              <div class=" h-28 w-32 bg-orange-300 text-center  ">01</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">02</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">03</div>
+    </div>  -->
+
+        <!-- flex-col-reverse  -->
+
+    <!-- <div class="flex  flex-col-reverse">
+             <div class=" h-28 w-32  bg-orange-300 text-center  ">01</div>
+             <div class=" h-28 w-32  bg-orange-300 text-center ">02</div>
+             <div class=" h-28 w-32  bg-orange-300 text-center ">03</div>
+    </div>  -->
+
+    <!-- Flex Wrap -->
+
+          <!-- flex-nowrap -->
+
+    <div class="flex  flex-nowrap ">
+          <div class=" h-28 w-32 bg-orange-300 text-center  ">01</div>
+          <div class=" h-28 w-32 bg-orange-300 text-center ">02</div>
+          <div class=" h-28 w-32 bg-orange-300 text-center ">03</div>
+    </div> 
+
+<!-- flex-wrap -->
+<!-- <div class="flex flex-wrap">
+    <div class=" h-28 w-32 bg-rose-400 text-center ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- flex-warp-reverse -->
+<!-- <div class="flex  flex-wrap-reverse ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- The word-wrap property allows long words to be able to be broken and wrap onto the next line. -->
+<!-- You learned from the CSS Media Queries [responsive] chapter that you can use media queries to create different 
+    layouts for different screen sizes and devices. -->
+
+    <!-- flex -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center ">03</div>
+    </div>   -->
+
+    <!-- flex-auto -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div> -->
+
+    <!-- flex-initial -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center  ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div>   -->
+
+    <!-- grow -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>
+    </div>  -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center grow">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center grow   ">03</div>
+    </div>  -->
+
+    <!-- shrink -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>
+    </div> -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-1">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-1">03</div>
+    </div> -->
+</body>
+</html>

@@ -31,6 +31,10 @@
     margin: 0;
     padding: 0;
 }
+/* body{
+    height: 
+    background-color:;
+} */
 .container{
     margin: 90px;
     display: flex;
@@ -52,6 +56,12 @@
     margin-left:300px;
     margin-bottom:10px;
     height:90px;
+    position: relative;
+}
+.img1 .off{
+    margin-top: -60%;
+    font-size: 30px;
+    position: absolute;
 }
 .maindiv p{
     position: absolute;
@@ -75,13 +85,12 @@
     /* margin-right: 200px; */
 }
 
-/************************* 2 ***********************/
-
 .maindiv2{
     height: 208px;
     width: 350px;
     border-radius: 10px;
     background-color: red;
+    margin-left:30px;
 }
 .maindiv2 .bag2 img{
     position: absolute;
@@ -115,11 +124,10 @@
     
 }
 
-/************************ 3 **************************/
-
 .maindiv3 img{
     border-radius: 9px;
     display: flex;
+    margin-left:30px ;
 }
 .maindiv3 .col p{
     position: absolute;
@@ -144,15 +152,13 @@
     width: 100px;
 }
 
-/********************* 4 ************************/
-
 .maindiv4{
     position:absolute;
     background-color: #138919;
-    height: 185px;
+    height: 210px;
     width: 776px;
     margin-top: 250px;
-    margin-left: 400px;
+    margin-left: 380px;
     border-radius: 9px;
 }
 .maindiv4 .bag3 img{

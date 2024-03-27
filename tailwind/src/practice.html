@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+   
+ <!-- _____**** 1. Flexbox & Grid ****______   -->
+
+        <!-- flex-basis -->
+
+    <!-- <div class="flex  space-x-5">
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/2">03</div>
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/4">02</div>
+        <div class=" h-28 w-28 bg-lime-400 text-center basis-1/4 ">01</div>
+    </div> -->
+
+        <!-- flex-direction -->
+            <!-- flex-row -->
+
+    <!-- <div class="flex  flex-row ">
+              <div class=" h-28 w-32 bg-orange-300 text-center  ">01</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">02</div>
+              <div class=" h-28 w-32 bg-orange-300 text-center ">03</div>
+    </div> -->
+
+<!-- flex-row-reverse -->
+<!-- <div class="flex  flex-row-reverse ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div> -->
+
+<!-- flex-col -->
+<!-- <div class="flex  flex-col ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- flex-col-reverse -->
+<!-- <div class="flex  flex-col-reverse">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- flex-nowrap -->
+<!-- <div class="flex  flex-nowrap ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- flex-wrap -->
+<!-- <div class="flex flex-wrap">
+    <div class=" h-28 w-32 bg-rose-400 text-center ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- flex-warp-reverse -->
+<!-- <div class="flex  flex-wrap-reverse ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+<!-- The word-wrap property allows long words to be able to be broken and wrap onto the next line. -->
+<!-- You learned from the CSS Media Queries [responsive] chapter that you can use media queries to create different 
+    layouts for different screen sizes and devices. -->
+
+    <!-- flex -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center ">03</div>
+    </div>   -->
+
+    <!-- flex-auto -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div> -->
+
+    <!-- flex-initial -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center  ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div>   -->
+
+    <!-- grow -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>    </div>  -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center grow">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center grow   ">03</div>
+    </div>  -->
+
+    <!-- shrink -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>
+    </div> -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-1">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-1">03</div>
+    </div> -->
+
+    <!-- order-frist -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center order-first">03</div>
+    </div> -->
+
+    <!-- order-last -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center order-last ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center ">03</div>
+    </div> -->
+
+    <!-- grid-template-columns -->
+    <!-- <div class="grid grid-cols-3 gap-4">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">4</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">5</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">6</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">7</div>
+    </div> -->
+
+    <!-- subgrid -->
+    <!-- <div class="grid grid-cols-3 gap-4">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">4</div>
+        <div class="grid grid-cols-subgrid gap-4 col-span-2">
+            
+            <div class="h-16 w-48 bg-indigo-400 text-center">5</div>
+        </div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">6</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">7</div>
+    </div> -->
+ 
+
+
+
+
+
+    <!-- lacture-4-->
+    <!-- margin-padding -->
+
+    <!-- <div class=" h-36 w-36 bg-black mb-52"></div>
+    <div class="h-36 w-36 bg-black mt-52"></div> -->
+
+<!-- space-y-col -->
+    <!-- <div class="flex flex-col space-y-8">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+<!-- space-x-row -->
+    <!-- <div class="flex space-x-7">
+        <div class="h-44 w-44 bg-purple-800 text-white">11</div>
+        <div class="h-44 w-44 bg-purple-700 text-white">2</div>
+        <div class="h-44 w-44 bg-purple-600 text-white">3</div>
+    </div> -->
+
+    <!-- space-y-reverse -->
+    <!-- <div class="flex flex-col-reverse space-y-9 space-y-reverse">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+    <!-- space-x-reverse -->
+    <!-- <div class="flex flex-row-reverse space-x-9 space-x-reverse">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+    <!-- size -->
+    <!-- <div class="flex space-x-4">
+        <div class="size-16 bg-pink-300 rounded-md">size-16</div>
+        <div class="size-20 bg-pink-400 rounded-md">size-20</div>
+        <div class="size-24 bg-pink-500 rounded-md">size-24</div>
+        <div class="size-32 bg-pink-600 rounded-md">size-32</div>
+        <div class="size-40 bg-pink-700 rounded-md">size-40</div>
+    </div> -->
+
+
+    <!-- lacture-4 -->
+    <!-- font-family -->
+    <!-- <p class="font-sans">Always remember that you are absolutely unique.</p>
+    <p class="font-serif">Always remember that you are absolutely unique.</p>
+    <p class="font-mono">Always remember that you are absolutely unique.</p> -->
+
+    <!-- FONT-SIZE -->
+
+    <!-- <p class="text-sm">Always remember that you are absolutely unique.</p>
+    <p class="text-base">Always remember that you are absolutely unique.</p>
+    <p class="text-lg">Always remember that you are absolutely unique.</p>
+    <p class="text-2xl">Always remember that you are absolutely unique.</p>
+    <p class="text-9xl">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Font-smoothing -->
+    <!-- <p class="subpixel-antialiased">Always remember that you are absolutely unique</p>
+    <p class="antialiased">Always remember that you are absolutely unique</p> -->
+
+    <!-- Font-style -->
+    <!-- <p class="italic">Always remember that you are absolutely unique</p>
+    <p class="not-italic">Always remember that you are absolutely unique</p>  -->
+
+    <!-- Font-weight  -->
+    <!-- <p class="font-light">Always remember that you are absolutely unique.</p>
+    <p class="font-normal">Always remember that you are absolutely unique.</p>
+    <p class="font-semibold">Always remember that you are absolutely unique.</p>
+    <p class="font-extrabold">Always remember that you are absolutely unique.</p>
+    <p class="font-extralight">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Font variant numeric -->
+    <!-- <p class="ordinal text-center">1st</p>
+    <p class="slashed-zero text-center">0</p>
+    <p class="lining-nums text-center">1234567890</p>
+    <p class="oldstyle-nums text-center">1234567890</p>
+    <p class="proportional-nums text-center">12121<br>90909</p>
+    <p class="tabular-nums text-center">1234</p>
+    <p class="diagonal-fractions text-center">1/2 3/4 4/5</p>
+    <p class="stacked-fractions text-center">1/2 3/4 5/6</p> -->
+
+    <!-- Letter spacing -->
+    <!-- <p class="tracking-tighter">Always remember that you are absolutely unique.</p>
+    <p class="tracking-tight">Always remember that you are absolutely unique.</p>
+    <p class="tracking-normal">Always remember that you are absolutely unique.</p>
+    <p class="tracking-wide">Always remember that you are absolutely unique.</p>
+    <p class="tracking-widest">Always remember that you are absolutely unique.</p>  -->
+
+    <!-- Align -->
+    <!-- <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p> 
+    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p> -->
+
+    <!-- text-color  -->
+    <!-- <p class="text-pink-300">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-400">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-500">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-600">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-700">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-800">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Text-decoration  -->
+    <!-- <p class="underline">Always remember that you are absolutely unique.</p>
+    <p class="overline">Always remember that you are absolutely unique.</p>
+    <p class="line-through">Always remember that you are absolutely unique.</p>
+    <p class="no-underline">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Text-decoration color -->
+    <!-- <p class="underline decoration-rose-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium harum repellendus dolore aperiam laborum hic enim ipsa tempore accusamus eaque similique quo ullam minima itaque, quis cumque sapiente? Aperiam.</p> -->
+    <!-- <p class="  decoration-inherit">Always remember that you are absolutely unique.</p>
+    <p class=" decoration-current">Always remember that you are absolutely unique.</p>
+    <p class="decoration-transparent">Always remember that you are absolutely unique.</p>  -->
+
+    <!-- Text-decoration-style  -->
+    <!-- <p class="underline decoration-solid">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-double">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-dotted">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-dashed">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-wavy">Always remember that you are absolutely unique.</p> -->
+
+    
+    <!-- text-decoration-Thickness -->
+    <!-- <p class="">Always remember that you are absolutely unique.</p>
+    <p class="">Always remember that you are absolutely unique.</p>
+    <p class="">Always remember that you are absolutely unique.</p>
+    <p class="">Always remember that you are absolutely unique.</p>
+    <p class="">Always remember that you are absolutely unique.</p> -->
+
+
+
+</body>
+</html>
