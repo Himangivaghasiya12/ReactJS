@@ -1,5 +1,5 @@
-// document.getElementById("demo").innerHTML 
-// = "hello, good morning!"
+document.getElementById("demo").innerHTML 
+= "hello, good morning!"
 
 // var,let and const
 // var-variable

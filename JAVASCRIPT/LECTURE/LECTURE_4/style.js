@@ -1,4 +1,4 @@
-// javascript data types
++// javascript data types
 
 /*
 string

@@ -13,12 +13,12 @@ let a = "jung kook";
 let b = 4.6544;
 let c = true;
 let d = 3245657698075631235n;
-let e = symbol("datatypes");
+// let e = symbol("datatypes");
 let f = [];
 let g = {};
 let h = function(){};
 let i = null;
-let j = undefined
+let j = undefined;
 
 console.log(typeof(a));
 console.log(typeof(b));
@@ -68,15 +68,15 @@ console.log(typeof(j));
 
 //  Switch Statements
 
-{
-    let std = 10;
+// {
+//     let std = 10;
 
-    if (std < 10){
-        console.log("you are not eligible for Education!");
-    }
+//     if (std < 10){
+//         console.log("you are not eligible for Education!");
+//     }
 
 
-}
+// }
 
 {
     //     let std = 9;
@@ -100,34 +100,34 @@ console.log(typeof(j));
 
 // nested statements
 
-let std = 10;
+// let std = 10;
 
-if (std > 10){
-if (std > 10){
+// if (std > 10){
+// if (std > 10){
 
-}
-else{
+// }
+// else{
 
-}
-}
-else{
+// }
+// }
+// else{
     
-}
+// }
 
 // Voting criteArea
 
 // Swich Statements 
 
-let book = "Maths";
+// let book = "Maths";
 
-switch(book){
-    case "Maths":console.log("book are available");
-    break;
-    case "Chemistry":console.log("book are available");
-    break;
-    case "Physics":console.log("book are available");
-    break;
-    case "biology":console.log("book are available");
-    break;
-    default:console.log("book are not available!");
-}
+// switch(book){
+//     case "Maths":console.log("book are available");
+//     break;
+//     case "Chemistry":console.log("book are available");
+//     break;
+//     case "Physics":console.log("book are available");
+//     break;
+//     case "biology":console.log("book are available");
+//     break;
+//     default:console.log("book are not available!");
+// }
