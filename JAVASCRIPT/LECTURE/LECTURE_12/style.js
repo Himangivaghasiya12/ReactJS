@@ -67,14 +67,14 @@
 
 // Javascript CharcodeAt() it will print ascii value
 
-let str = "Hello";
-console.log(str);
+// let str = "Hello";
+// console.log(str);
 
-let Charstr = str.charCodeAt(10);
-console.log(Charstr);
+// let Charstr = str.charCodeAt(10);
+// console.log(Charstr);
 
-let Charstr1 = str.charCodeAt(2);
-console.log(Charstr1);
+// let Charstr1 = str.charCodeAt(2);
+// console.log(Charstr1);
 
-let repeatstr = str.repeat(10)
-console.log(repeatstr);
+// let repeatstr = str.repeat(10)
+// console.log(repeatstr);
