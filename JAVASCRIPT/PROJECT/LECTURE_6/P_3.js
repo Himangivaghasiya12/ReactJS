@@ -85,3 +85,84 @@
 //   sum = sum + numbersArray[i];
 // }
 // console.log("The sum is: " + sum);
+
+                 // ***** 1 *****
+
+// Display Alert in JavaScript
+
+// alert("this is javascript")
+
+                // ***** 4 *****
+
+// mouseover and mouseout in javascript     
+
+// document.getElementById('click').addEventListener("mouseover" , size)
+
+// function size(){
+//     document.getElementById('demobox').style.height = "200px"
+
+//     document.getElementById('demobox').style.width = "200px"
+    
+//     document.getElementById('demobox').style.backgroundColor = "lightblue"
+// }
+
+
+// document.getElementById('click').addEventListener("mouseout" , size)
+
+// function size(){
+//     document.getElementById('demobox').style.height = "200px"
+
+//     document.getElementById('demobox').style.width = "200px"
+    
+//     document.getElementById('demobox').style.backgroundColor = "lightblue"
+// }
+
+                      // ***** 5 *****
+
+// Use keypress In JavaScript to Display Alerts
+
+// document.addEventListener('keypress', function(event) {
+//         alert('A key was pressed!');
+//       });
+      
+
+                        // ***** 6 *****
+
+// JavaScript Validation Examples
+
+// function myFunction() {
+//         document.getElementById("myText").required = true;
+//         document.getElementById("demo").innerHTML = "The required property was set. The text field must now be filled out before submitting the form.";
+//       }
+
+
+                        // ***** 7 *****
+
+// Textbox required validation in javascript
+
+
+                      // ***** 13 *****
+
+
+// . Retrieve Today’s Date in JavaScript
+
+
+// {
+//         const date = new Date();
+        
+//         const a = date.toDateString();
+        
+//         console.log(a);
+    
+    
+//     }
+
+// window.history.forward();   
+
+
+window.history.forward();
+    function noBack() {window.history.forward(); }
+window.onload='noBack()';
+window.onpageshow=function(evt){if(evt.persisted)noBack()}
+window.onunload=function(){void(0)}
+              
