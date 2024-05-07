@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 1530px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.nav1 ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav1 .contact {
+  border-color: orange;
+  background-color: orange;
+}
+.nav1 .btn {
+  height: 90px;
+  width: 200px;
+  background-color: lightsalmon;
+  border: none;
+}
+.nav1 .btn .t1 {
+  height: 30px;
+}
+.nav1 .btn .t2 {
+  text-align: center;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.sec2 {
+  height: 200px;
+}
+.sec2 .main1 img {
+  height: 400px;
+  width: 1530px;
+}
+.sec2 .overley {
+  height: 620px;
+  width: 1530px;
+  background-color: blue;
+  position: absolute;
+  inset: 0;
+  opacity: 20%;
+  top: 90px;
+}
+.sec2 .overley .error {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sec3 .page {
+  height: 380px;
+  width: 1530px;
+  background-color: aliceblue;
+  position: absolute;
+  inset: -1;
+  bottom: 100px;
+}
+.sec3 .page .i1 {
+  height: 150px;
+  margin-left: 38%;
+  margin-top: 50px;
+}
+.sec3 .page h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.sec3 .page h2 .s1 {
+  color: orangered;
+  font-weight: 200;
+}
+.sec3 .page h2 .s2 {
+  font-style: italic;
+  font-weight: 200;
+}
+.sec3 .page button {
+  height: 40px;
+  width: 130px;
+  background-color: orangered;
+  color: antiquewhite;
+  margin-left: 46%;
+  margin-top: 20px;
+  border: none;
+}
+
+.part1 .p1 {
+  display: inline;
+}/*# sourceMappingURL=main.css.map */

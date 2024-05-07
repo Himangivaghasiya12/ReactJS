@@ -1,3 +1,232 @@
+// @import 'variable';
+// *{
+//     margin: 0;
+//     padding: 0;
+// }
+
+// body{
+//     box-sizing: border-box;
+// }
+
+// .sec1{
+//     display: $d-flex;
+//     // position:;
+//     justify-content: $justify-between;
+//     align-items: $align-center;
+//     height: 90px;
+//     width: 1530px;
+// }
+// .nav1{
+//     display: $d-flex;
+//     justify-content: $justify-between;
+//     ul{
+//         display: $d-flex;
+//         // justify-content: center;
+//         align-items: $align-center;
+//         margin-right: 25px;
+//         // text-align: center;
+//         li{
+//             list-style: none;
+//             margin: 0 14px;
+//             font-size: 18px;
+//             font-weight: 600;
+//         }
+//     }
+//    .btn{
+//     height: 90px;
+//     width: 200px;
+//     background-color: lightsalmon;
+//     // text-align: center;
+//     border: none;
+//     .t1{
+//         height: 30px;
+//         // margin-left: -30px;
+//     }
+//     .t2{
+//         text-align: center;
+//         // margin-top: 10px;
+//         margin-left: 20px;
+//         color: aliceblue;
+        
+//     }
+//    }
+   
+// }
+// .sec2{
+
+//     .overley{
+//         // transition: 0.5s ease; 
+//         height: 590px; 
+//         width: $w-12; 
+//         background-color:black; 
+//         position: absolute;  
+//         inset: 0;
+//         opacity: 40%;
+//         top: 90px;
+
+//         .error {
+//             color: white;
+//             text-align: center;
+//             margin-top:40px;
+
+//             h6{
+//                 margin-top: 10px;
+//             }
+//         }
+
+//     }
+// }
+// .sec3{
+//     .Pages{
+//         height: 457px;
+//         width: $w-12;
+//         background-color: aliceblue;
+//         position: absolute;
+//         inset: 1;
+//         margin-top: -50px;
+
+//         img{
+//             height: 290px;
+//             width: 250px;
+//             margin: 60px;
+//             margin-left: 300px;
+//             filter: drop-shadow(10px 10px  #F7F9F9);
+//         }
+//         .head{
+//             text-align: center;
+//             font-size: 35px;
+//             margin-top: -355px;
+//             margin-left: -80px;
+//             // margin-left: 500px;
+//         }
+//         .s2{
+//             color: orangered;
+//             text-align: center;
+//             margin-left: -245px;
+//         }
+//         .p1{
+//             // align-items: center;
+//             // text-align: center;
+//             margin-left: 600px;
+//             margin-top: 20px;
+//             font-size: 12px;
+//         }
+//         .p2{
+//             margin-left: 600px;
+//             margin-top: 20px;
+//             font-size: 12px;
+//         }
+//         .f1{
+//             text-align: center;
+//             margin-top: 18px;
+//             // margin-left: -10px;
+//             margin-right: 220px;
+//         }
+//         .a1{
+
+//             margin-left: 39%;
+//             margin-top: -36px;
+//             .w1{
+//                 height: 25px;
+//                 width: 25px;
+//                 background-color: white;
+//                 box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+                
+//             }
+//         }
+//         .a2{
+
+//             margin-left: 42%;
+//             margin-top: -73.5px;
+//             .w2{
+//                 height: 25px;
+//                 width: 25px;
+//                 background-color: white;
+//                 box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+
+//             }
+//         }
+//         .a3{
+
+//             margin-left: 45%;
+//             margin-top: -74.5px;
+//             .w3{
+//                 height: 25px;
+//                 width: 25px;
+//                 background-color: white;
+//                 box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+    
+                
+//             }
+//         }
+//         .a4{
+
+//             margin-left: 47.9%;
+//             margin-top: -74.5px;
+//             .w4{
+//                 height: 25px;
+//                 width: 25px;
+//                 background-color: white;
+//                 box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+    
+               
+//             }
+//         }
+//         .a5{
+
+//              margin-left: 50.9%;
+//             margin-top: -74.5px;     
+//             .w5{
+//                 height: 25px;
+//                 width: 25px;
+//                 background-color: white;
+//                 box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+                
+//             }
+//         }
+//         .ft1{
+//             h3{
+//                 margin-left: 19% ;
+//                 margin-top: 85px;
+//             }
+//             p{
+//                 margin-left: 19% ;
+//                 font-size: 13px;
+//             }
+//         }
+//         .ft2{
+//             h3{
+//                 margin-left: 50% ;
+//                 margin-top: -38px;
+//             }
+//             p{
+//                 margin-left: 50% ;
+//                 font-size: 13px;
+//             }
+//         }
+        
+//     }
+// }
+    
+
+
+
+
 @import 'variable';
 *{
     margin: 0;
@@ -125,7 +354,7 @@ body{
         .a1{
 
             margin-left: 39%;
-            margin-top: -36px;
+            margin-top: 10px;
             .w1{
                 height: 25px;
                 width: 25px;
@@ -140,7 +369,7 @@ body{
         .a2{
 
             margin-left: 42%;
-            margin-top: -73.5px;
+            margin-top: -25px;
             .w2{
                 height: 25px;
                 width: 25px;
@@ -155,7 +384,7 @@ body{
         .a3{
 
             margin-left: 45%;
-            margin-top: -74.5px;
+            margin-top: -25px;
             .w3{
                 height: 25px;
                 width: 25px;
@@ -171,7 +400,7 @@ body{
         .a4{
 
             margin-left: 47.9%;
-            margin-top: -74.5px;
+            margin-top: -25px;
             .w4{
                 height: 25px;
                 width: 25px;
@@ -187,7 +416,7 @@ body{
         .a5{
 
             margin-left: 50.9%;
-            margin-top: -74.5px;
+            margin-top: -25px;
             .w5{
                 height: 25px;
                 width: 25px;
@@ -202,7 +431,7 @@ body{
         .ft1{
             h3{
                 margin-left: 19% ;
-                margin-top: 85px;
+                margin-top: 5%;
             }
             p{
                 margin-left: 19% ;
@@ -212,8 +441,7 @@ body{
         .ft2{
             h3{
                 margin-left: 50% ;
-                margin-top: -38px;
-            }
+                margin-top: -42px;        }
             p{
                 margin-left: 50% ;
                 font-size: 13px;
@@ -223,3 +451,5 @@ body{
     }
 }
     
+
+
