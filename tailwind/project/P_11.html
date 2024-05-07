@@ -1,67 +1,96 @@
+<!-- 11 done -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P_11</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-
-  <body>
-    <div class="w-[700px] h-[720px] bg-[url('img/11.png')] bg-cover bg-center ml-96">
-        <div class="w-[700px] h-[720px] flex flex-col justify-center items-center backdrop-blur">
-            <div class="h-[690px] w-[550px]  m-3 bg-slate-100  flex justify-center ">
-                <div class="h-[630px] w-[460px]  mt-7 rounded-3xl bg-white fixed">
-                    <div class="flex ">
-                        <P class="text-2xl font-bold mt-10 ml-7">Notifications</P> 
-                        <div class="text-2xl font-bold bg-slate-200 h-9 w-11 py-1 mt-10 text-center rounded-lg text-blue-700 mr-2 ml-60 flex justify-center">
-                            <i class="fa-solid fa-ellipsis"></i>
+<body>
+    <div class="flex flex-col justify-center items-center h-[100vh]">
+        <div class="w-[500px] h-[650px] bg-[url('img/11.png')] bg-cover bg-center ">
+            <div class="w-[500px] h-[650px] flex flex-col justify-center items-center backdrop-blur">
+                <div class="flex flex-col justify-center items-center h-[100vh]">
+                    <div class="relative flex flex-col items-center rounded-[20px] w-max-content max-w-[95%] mx-auto bg-white bg-clip-border shadow-3xl p-5 pb-8">
+                        <div class="relative mb-3 flex items-center justify-between pt-1 w-full">
+                            <h1 class="text-xl font-bold">
+                                Notifications
+                            </h1> 
+                            <button class='flex items-center text-xl hover:cursor-pointer p-2 bg-slate-100 rounded-lg'>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="h-6 w-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path></svg>
+                            </button>
                         </div>
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-4xl text-gray-300 mt-10"></i>
-                        <P class="text-lg font-medium mt-10 ml-8">Item comment notifications</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Buyer review notifications</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Rating reminders notifications</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Meetups near you notifications</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Company news notifications</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">New launches and projects</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Monthly product changes</P> 
-                    </div>
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Subscribe to newsletter</P> 
-                    </div>
+                        <div class="flex flex-col"> 
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox1">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Item comment notifications
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Buyer review notifications
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Rating reminders notifications
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Meetups near you notifications
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Company news notifications
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    New launches and projects
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Monthly product changes
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Subscribe to newsletter
+                                </label>
+                            </div>
+                            <div class="mt-3 flex items-center gap-3"> 
+                                <input type="checkbox" class='relative h-5 w-10 appearance-none rounded-[20px] bg-slate-100  before:absolute before:top-[50%] before:h-4 before:w-4 before:translate-x-[2px] before:translate-y-[-50%] before:rounded-[20px] before:bg-white before:shadow-xl  checked:before:translate-x-[20px] hover:cursor-pointer checked:bg-blue-500' name="weekly" id="checkbox2">
+                                </input>
+                                <label for="checkbox1" class="text-base font-medium text-gray-700">
+                                    Email me when someone follows me
+                                </label>
+                            </div>
 
-                    <div class="flex ml-6">
-                        <i class="fa-solid fa-toggle-off text-3xl text-gray-300 mt-5"></i>
-                        <P class="text-lg font-medium mt-5 ml-8">Email me when someone follows me</P> 
+                        </div>    
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-  </body>
-</html>                    
+            </div>           
+        </div>  
+    </div>           
+</body>
+</html>
