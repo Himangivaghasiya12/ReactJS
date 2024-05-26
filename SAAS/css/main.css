@@ -1,43 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
+.box-1 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
 }
 
-body {
-  box-sizing: border-box;
-}
-
-.sec1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 90px;
-  width: 1530px;
-}
-
-.nav1 {
-  display: flex;
-  justify-content: space-between;
-}
-.nav1 ul {
+/* Sass Nesting Method */
+header {
+  background-color: gray;
   display: flex;
   align-items: center;
-  margin-right: 25px;
+  justify-content: space-around;
 }
-.nav1 ul li {
-  list-style: none;
-  margin: 0 14px;
-  font-size: 18px;
-  font-weight: 600;
-}
-.nav1 .contact {
-  border-color: orange;
-  background-color: orange;
-}
-.nav1 .btn {
-  height: 90px;
+header .logo img {
+  height: 200px;
   width: 200px;
-  background-color: lightsalmon;
+}
+header .nav-items nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header .nav-items nav ul li {
+  margin-right: 50px;
+}
+header .nav-items nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}/*# sourceMappingURL=main.css.map */ckground-color: lightsalmon;
   border: none;
 }
 .nav1 .btn .t1 {

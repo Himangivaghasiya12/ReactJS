@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LAYOUT</title>
+
+    <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
     <!-- Aspect Ratio
     Container
@@ -26,5 +30,1509 @@
     Top / Right / Bottom / Left
     Visibility
     Z-Index -->
+
+
+    <h1 class="font-bold text-2xl">--------- Aspect Ratio -----------</h1>
+
+    <div class="aspect-video ">
+        <iframe class="w-full h-96" frameborder="0" src="video (2160p).mp4"></iframe>
+    </div>
+
+    <h1 class="font-bold mt-[-400px] text-2xl">---------- Container -----------</h1>
+
+    <p class="container mx-auto px-4 mt-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at eos
+        similique
+        tempora perspiciatis vel nisi, voluptates quod sequi in distinctio molestias voluptas omnis reiciendis nesciunt,
+        odit dolorum vero incidunt.</p>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Columns-----------</h1>
+    <div class="columns-5 mt-9">
+        <img class="h-24 w-24 " src="img/col1.jpeg" />
+        <img class="h-24 w-24 " src="img/col1.jpeg" />
+        <img class="h-24 w-24 " src="img/col1.jpeg" />
+        <img class="h-24 w-24 " src="img/col1.jpeg" />
+        <img class="h-24 w-24 " src="img/col1.jpeg" />
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Break after -----------</h1>
+    <div class="columns-3 break-after-auto mt-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis dolor omnis possimus ea. Ex rerum
+            eius ullam, repellat est in voluptate ea veniam eveniet voluptatum modi, labore deleniti minima!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, voluptates
+            doloremque vel quae fugit veniam corporis odit quisquam est sequi quod eum eligendi mollitia iure et minima
+            hic magnam aspernatur.</p>
+        <img class="h-20 w-32"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxo_P2En-oOSzzGd_3E1kh-9s_M5LbWe3ow0sVx_ADfxu7oabp_vTlaLblFwHs3PL9II&usqp=CAU"
+            alt="">
+        <p class="break-after-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur consectetur
+            necessitatibus quia ab in
+            sapiente ad odio cupiditate laborum excepturi! Consectetur nihil dolorem harum saepe commodi enim veritatis
+            voluptas autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci optio natus, ex vitae debitis delectus
+            soluta exercitationem mollitia commodi
+            <img class="h-20 w-32"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxo_P2En-oOSzzGd_3E1kh-9s_M5LbWe3ow0sVx_ADfxu7oabp_vTlaLblFwHs3PL9II&usqp=CAU"
+                alt="">
+            saepe reprehenderit earum repellendus hic. Quae inventore facere
+            nostrum voluptatem quasi.
+        </p>
+
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Box Decoration Break -----------</h1>
+
+    <h1 class="text-xl mt-8 ml-8"> 1. box-decoration-slice -----------</h1>
+
+    <span
+        class="box-decoration-slice bg-gradient-to-r from-indigo-500 to-pink-500 text-white text-2xl font-bold px-2 mt-10">
+        Skill<br>Qode</span> <br>
+
+    <h1 class="text-xl mt-8 ml-8"> 2. box-decoration-clone -----------</h1>
+
+    <span class="box-decoration-clone bg-gradient-to-r from-indigo-500 to-pink-500 text-white text-2xl font-bold px-2">
+        Skill<br>Qode</span>
+
+    <h1 class="font-bold mt-8">---------- Box Sizing -----------</h1>
+
+    <h1 class="text-xl mt-8 ml-8"> 1. box-border -----------</h1>
+
+    <div class="box-border h-32 w-32 border-4 p-4 bg-indigo-600 mb-10"></div>
+
+    <h1 class="text-xl mt-8 ml-8"> 2. box-content -----------</h1>
+
+    <div class="box-content h-32 w-32 border-4 p-4 bg-indigo-600"></div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Float -----------</h1>
+
+    <h1 class="text-xl mt-8 ml-8"> 1. float-left -----------</h1>
+    <div>
+        <img class="float-left h-40 w-60"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rKQ2poiblS1ZzcHYV-vM_9V0w60DH9ziRw&s">
+        <p>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+            This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.</p>
+    </div>
+
+    <h1 class="text-xl mt-14 "> 2. float-right -----------</h1>
+
+    <div>
+        <img class="float-right h-40 w-60 "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rKQ2poiblS1ZzcHYV-vM_9V0w60DH9ziRw&s">
+        <p class="mt-16">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to
+            change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+            This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.</p>
+    </div>
+
+    <h1 class="text-xl mt-8 ml-8"> 3. loat-start -----------</h1>
+
+    <div>
+        <img class="float-start h-40 w-60 "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rKQ2poiblS1ZzcHYV-vM_9V0w60DH9ziRw&s">
+        <p class="mt-16">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to
+            change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+            This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.</p>
+    </div>
+
+    <h1 class="text-xl mt-14 "> 4. float-end -----------</h1>
+
+    <div>
+        <img class="float-end h-40 w-60 "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rKQ2poiblS1ZzcHYV-vM_9V0w60DH9ziRw&s">
+        <p class="mt-16">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to
+            change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+            This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.</p>
+    </div>
+
+    <h1 class="text-xl mt-8 ml-8"> 5. float-none -----------</h1>
+
+    <div>
+        <img class="float-none h-40 w-60 mt-8"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rKQ2poiblS1ZzcHYV-vM_9V0w60DH9ziRw&s">
+        <p class="mt-6">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to
+            change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+            This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.</p>
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Clear -----------</h1>
+
+    <div>
+        <img class="float-right h-30 w-40 "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZewZ5CvAU8D0lWYpcGV-iCqumJwki-jrX9Q&s">
+        <p class="clear-left mt-5 ">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too
+            old
+            to change the world,
+            but what about that kid, sitting down, opening a book, right now, in a branch at the local library and
+            finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE
+            deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again.
+        </p>
+        <img class="float-left h-30 w-40 mt-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZewZ5CvAU8D0lWYpcGV-iCqumJwki-jrX9Q&s">
+        <p class="clear-right mt-5">This is about that kid's right to read a book without getting his mind warped! Or:
+            maybe that turns you on,
+            Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.
+        </p>
+
+    </div>
+
+    <h1 class="font-bold mt-28 text-2xl ">---------- Object Fit -----------</h1>
+
+    <h1 class="text-xl mt-8 ml-8"> 1. object-contain -----------</h1>
+
+    <div class="bg-purple-300 h-48 w-96 mt-5">
+        <img class="object-contain h-48 w-96"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oQCA2PDf3xAESa-dyhAQnxvWUQQTqsjScg&s" alt="">
+    </div>
+
+    <h1 class="text-xl mt-8 ml-8"> 2. object-cover -----------</h1>
+
+    <div class="bg-purple-300 h-48 w-96 mt-5">
+        <img class="object-cover h-48 w-96"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oQCA2PDf3xAESa-dyhAQnxvWUQQTqsjScg&s" alt="">
+    </div>
+
+    <h1 class="text-xl mt-8 ml-8"> 3. object-fill -----------</h1>
+
+    <div class="bg-purple-300 h-48 w-96 mt-5">
+        <img class="object-fill h-48 w-96"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oQCA2PDf3xAESa-dyhAQnxvWUQQTqsjScg&s" alt="">
+    </div>
+
+    <h1 class="text-xl mt-8 ml-8"> 4. object-scale-down -----------</h1>
+
+    <div class="bg-purple-300 h-48 w-96 mt-5">
+        <img class="object-scale-down h-48 w-96"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oQCA2PDf3xAESa-dyhAQnxvWUQQTqsjScg&s" alt="">
+    </div>
+
+    <h1 class="font-bold mt-11 text-2xl">---------- Object Position -----------</h1>
+    <div class="flex justify-evenly">
+        <div class="  items-center flex-wrap gap-3 mt-5">
+            <h1 class="text-xl"> 1. object-left-top-----</h1>
+            <img class="object-none object-left-top bg-neutral-400  h-60"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl"> 2. object-top-----</h1>
+            <img class="object-none object-top bg-neutral-400  h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl"> 3. object-right-top-----</h1>
+            <img class="object-none object-right-top bg-neutral-400  h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl"> 4. object-left-----</h1>
+            <img class="object-none object-left bg-neutral-400  h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+        </div>
+        <div class="  items-center flex-wrap gap-3 mt-5">
+            <h1 class="text-xl"> 5. object-center-----</h1>
+            <img class="object-none object-center bg-neutral-400 h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl">6. object-right-----</h1>
+            <img class="object-none object-right bg-neutral-400  h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl"> 7. object-left-bottom-----</h1>
+            <img class="object-none object-left-bottom bg-neutral-400 h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+            <h1 class="text-xl"> 8. object-bottom-----</h1>
+            <img class="object-none object-bottom bg-neutral-400  h-60 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+        </div>
+    </div>
+    <h1 class="text-xl text-center "> 9. object-right-bottom-----</h1>
+    <img class="object-none object-right-bottom bg-neutral-400  h-60 ml-[600px]"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2ZMvcGCerlFfUWnrCw9fBS4zEl7EEaKHxQ&s">
+
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Overflow -----------</h1>
+
+    <div class="flex justify-evenly">
+        <h1 class="text-xl mt-8 ml-8"> 1. visible -----------</h1>
+        <div class="flex justify-center relative items-center w-60 h-20 mt-10 bg-gray-400 rounded-2xl overflow-visible">
+            <img class="absolute rounded-full h-28 w-32" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnb8RDrsoFl1WsBSU60hpOsjoftcElfyt5rA&s">
+        </div>
+        <h1 class="text-xl mt-8 ml-8"> 2. hidden -----------</h1>
+        <div class="flex justify-center relative items-center w-60 h-20 mt-10 bg-gray-400 rounded-2xl overflow-hidden">
+            <img class="absolute rounded-full h-28 w-28" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnb8RDrsoFl1WsBSU60hpOsjoftcElfyt5rA&s">
+        </div>
+    </div>
+
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Overscroll Behavior -----------</h1>
+    <div class="overflow-scroll h-60 w-96 mt-5 bg-indigo-400">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto et sequi, adipisci, cumque
+                fuga cupiditate temporibus quibusdam consectetur minus rerum sed eveniet quidem eligendi quasi, aut
+                assumenda consequatur. Quaerat porro tempore nulla perferendis incidunt voluptatibus modi atque in amet
+                excepturi esse eaque inventore deserunt nobis, sint necessitatibus impedit vel perspiciatis officia.
+                Minima omnis qui, at non officiis eum vel doloremque culpa libero? Atque laudantium magnam odio
+                consectetur deleniti? Culpa, fugiat cupiditate. Nemo dolore nihil enim. Saepe, ex nobis numquam maxime
+                officiis velit? Consequuntur nisi itaque, qui ullam odio pariatur accusantium, hic inventore ex eum
+                modi, natus aliquam in illo!
+            </p>
+        </div>
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl ">---------- Position & Top / Right / Bottom / Left -----------</h1>
+
+    <div class="relative h-52 w-96 bg-rose-700 rounded-xl text-white flex justify-center items-center mt-5">
+        <div
+            class="absolute bottom-0 left-0 h-8 w-24 text-sm bg-red-400 rounded-xl text-white flex justify-center items-center">
+            <p>01</p>
+        </div>
+        <div
+            class="absolute bottom-0 right-0 h-8 w-24 text-sm bg-red-400 rounded-xl text-white flex justify-center items-center">
+            <p>02</p>
+        </div>
+        <div
+            class="absolute top-0 left-0 h-8 w-24 text-sm bg-red-400 rounded-xl text-white flex justify-center items-center">
+            <p>03</p>
+        </div>
+        <div
+            class="absolute top-0 right-0 h-8 w-24 text-sm bg-red-400 rounded-xl text-white flex justify-center items-center">
+            <p>04</p>
+        </div>
+        <div
+            class="absolute insert-0 h-8 w-24 text-sm bg-red-400 rounded-xl text-white flex justify-center items-center">
+            <p>05</p>
+        </div>
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Visibility -----------</h1>
+
+    <div>
+        <div class="grid grid-cols-3 gap-2 mt-5">
+            <div class="h-10 w-20 visible bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">01</div>
+            <div
+                class="invisible h-10 w-20 bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">
+                02</div>
+            <div class="h-10 w-20 bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">03</div>
+        </div>
+        <div class="grid grid-cols-3 gap-2 mt-5 ">
+            <div class="h-10 w-20 bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">01</div>
+            <div class="visible h-10 w-20 bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">
+                02
+            </div>
+            <div class="h-10 w-20 bg-lime-700 rounded-md flex justify-center items-center text-white font-bold">03</div>
+        </div>
+    </div>
+
+    <h1 class="font-bold mt-8 text-2xl">---------- Z-Index -----------</h1>
+
+    <div class="flex justify-center items-center">
+        <div
+            class="z-40 relative h-20 w-20 bg-blue-500 border-4 border-red-950 rounded-full flex justify-center items-center text-xl text-white font-bold">
+            05</div>
+        <div
+            class="z-30 relative right-4 h-20 w-20 bg-blue-600 border-4 border-red-800 rounded-full flex justify-center items-center text-xl text-white font-bold">
+            04</div>
+        <div
+            class="z-20 relative right-8 h-20 w-20 bg-blue-700 border-4 border-red-700 rounded-full flex justify-center items-center text-xl text-white font-bold">
+            03</div>
+        <div
+            class="z-10 relative right-12 h-20 w-20 bg-blue-800 border-4 border-red-600 rounded-full flex justify-center items-center text-xl text-white font-bold">
+            02</div>
+        <div
+            class="z-0 relative right-16 h-20 w-20 bg-blue-950 border-4 border-red-500 rounded-full flex justify-center items-center text-xl text-white font-bold">
+            01</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="output.css">
+
+</head>
+<body> -->
+
+    <!-- flex-basis -->
+    <!-- <div class="flex  space-x-5">
+        <div class=" h-32 w-32 bg-rose-400 text-center basis-1/4 ">01</div>
+        <div class=" h-32 w-32 bg-rose-400 text-center basis-1/4">02</div>
+        <div class=" h-32 w-32 bg-rose-400 text-center basis-1/2">03</div>
+    </div> -->
+
+    <!-- flex-direction -->
+    <!-- flrx-row -->
+
+    <!-- <div class="flex  flex-row ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div> -->
+
+    <!-- flex-row-reverse -->
+    <!-- <div class="flex  flex-row-reverse ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div> -->
+
+    <!-- flex-col -->
+    <!-- <div class="flex  flex-col ">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+    <!-- flex-col-reverse -->
+    <!-- <div class="flex  flex-col-reverse">
+    <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+    <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+</div>  -->
+
+        <!-- flex-nowrap -->
+        <!-- <div class="flex  flex-nowrap ">
+        <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+    </div>  -->
+
+        <!-- flex-wrap -->
+        <!-- <div class="flex flex-wrap">
+        <div class=" h-28 w-32 bg-rose-400 text-center ">01</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+    </div>  -->
+
+        <!-- flex-warp-reverse -->
+        <!-- <div class="flex  flex-wrap-reverse ">
+        <div class=" h-28 w-32 bg-rose-400 text-center  ">01</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-rose-400 text-center ">03</div>
+    </div>  -->
+
+        <!-- The word-wrap property allows long words to be able to be broken and wrap onto the next line. -->
+        <!-- You learned from the CSS Media Queries [responsive] chapter that you can use media queries to create different 
+        layouts for different screen sizes and devices. -->
+
+    <!-- flex -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center ">03</div>
+    </div>   -->
+
+    <!-- flex-auto -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div> -->
+
+    <!-- flex-initial -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center  ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center flex-auto">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-auto">03</div>
+    </div>   -->
+
+    <!-- grow -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>
+    </div>  -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center grow">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center grow-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center grow   ">03</div>
+    </div>  -->
+
+    <!-- shrink -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-none">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-none">03</div>
+    </div> -->
+
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center flex-1">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center shrink-0">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center flex-1">03</div>
+    </div> -->
+
+    <!-- order-frist -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center order-first">03</div>
+    </div> -->
+
+    <!-- order-last -->
+    <!-- <div class="flex ">
+        <div class=" h-28 w-28 bg-indigo-300 text-center ">01</div>
+        <div class=" h-28 w-52 bg-indigo-400 text-center order-last ">02</div>
+        <div class=" h-28 w-32 bg-indigo-500 text-center ">03</div>
+    </div> -->
+
+    <!-- grid-template-columns -->
+    <!-- <div class="grid grid-cols-3 gap-4">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">4</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">5</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">6</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">7</div>
+    </div> -->
+
+    <!-- subgrid -->
+    <!-- <div class="grid grid-cols-3 gap-4">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">4</div>
+        <div class="grid grid-cols-subgrid gap-4 col-span-2">
+            
+            <div class="h-16 w-48 bg-indigo-400 text-center">5</div>
+        </div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">6</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">7</div>
+    </div> -->
+
+
+
+
+
+
+    <!-- lacture-4-->
+    <!-- margin-padding --> 
+
+    <!-- <div class=" h-36 w-36 bg-black mb-52"></div>
+    <div class="h-36 w-36 bg-black mt-52"></div> -->
+
+    <!-- space-y-col -->
+    <!-- <div class="flex flex-col space-y-8">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+    <!-- space-x-row -->
+    <!-- <div class="flex space-x-7">
+        <div class="h-44 w-44 bg-purple-800 text-white">11</div>
+        <div class="h-44 w-44 bg-purple-700 text-white">2</div>
+        <div class="h-44 w-44 bg-purple-600 text-white">3</div>
+    </div> -->
+
+    <!-- space-y-reverse -->
+    <!-- <div class="flex flex-col-reverse space-y-9 space-y-reverse">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+    <!-- space-x-reverse -->
+    <!-- <div class="flex flex-row-reverse space-x-9 space-x-reverse">
+        <div class="h-44 w-44 bg-blue-600 text-white">01</div>
+        <div class="h-44 w-44 bg-blue-500 text-white">02</div>
+        <div class="h-44 w-44 bg-blue-400 text-white">03</div>
+    </div> -->
+
+    <!-- size -->
+    <!-- <div class="flex space-x-4">
+        <div class="size-16 bg-pink-300 rounded-md">size-16</div>
+        <div class="size-20 bg-pink-400 rounded-md">size-20</div>
+        <div class="size-24 bg-pink-500 rounded-md">size-24</div>
+        <div class="size-32 bg-pink-600 rounded-md">size-32</div>
+        <div class="size-40 bg-pink-700 rounded-md">size-40</div>
+    </div> -->
+
+
+    <!-- lacture-4 -->
+    <!-- font-family -->
+    <!-- <p class="font-sans">Always remember that you are absolutely unique.</p>
+    <p class="font-serif">Always remember that you are absolutely unique.</p>
+    <p class="font-mono">Always remember that you are absolutely unique.</p> -->
+
+    <!-- FONT-SIZE -->
+
+    <!-- <p class="text-sm">Always remember that you are absolutely unique.</p>
+    <p class="text-base">Always remember that you are absolutely unique.</p>
+    <p class="text-lg">Always remember that you are absolutely unique.</p>
+    <p class="text-2xl">Always remember that you are absolutely unique.</p>
+    <p class="text-9xl">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Font-smoothing -->
+    <!-- <p class="subpixel-antialiased">Always remember that you are absolutely unique</p>
+    <p class="antialiased">Always remember that you are absolutely unique</p> -->
+
+    <!-- Font-style -->
+    <!-- <p class="italic">Always remember that you are absolutely unique</p>
+    <p class="not-italic">Always remember that you are absolutely unique</p>  -->
+
+    <!-- Font-weight  -->
+    <!-- <p class="font-light">Always remember that you are absolutely unique.</p>
+    <p class="font-normal">Always remember that you are absolutely unique.</p>
+    <p class="font-semibold">Always remember that you are absolutely unique.</p>
+    <p class="font-extrabold">Always remember that you are absolutely unique.</p>
+    <p class="font-extralight">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Font variant numeric -->
+    <!-- <p class="ordinal text-center">1st</p>
+    <p class="slashed-zero text-center">0</p>
+    <p class="lining-nums text-center">1234567890</p>
+    <p class="oldstyle-nums text-center">1234567890</p>
+    <p class="proportional-nums text-center">12121<br>90909</p>
+    <p class="tabular-nums text-center">1234</p>
+    <p class="diagonal-fractions text-center">1/2 3/4 4/5</p>
+    <p class="stacked-fractions text-center">1/2 3/4 5/6</p> -->
+
+    <!-- Letter spacing -->
+    <!-- <p class="tracking-tighter">Always remember that you are absolutely unique.</p>
+    <p class="tracking-tight">Always remember that you are absolutely unique.</p>
+    <p class="tracking-normal">Always remember that you are absolutely unique.</p>
+    <p class="tracking-wide">Always remember that you are absolutely unique.</p>
+    <p class="tracking-widest">Always remember that you are absolutely unique.</p>  -->
+
+    <!-- Align -->
+    <!-- <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p> 
+    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p>
+    <p class="text-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est cum, dicta ratione cupiditate error debitis quo in. Aspernatur, explicabo aut. Repudiandae earum repellat culpa aliquid, et eveniet eos voluptatum nostrum.</p> -->
+
+    <!-- text-color  -->
+    <!-- <p class="text-pink-300">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-400">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-500">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-600">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-700">Always remember that you are absolutely unique.</p>
+    <p class="text-pink-800">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Text-decoration  -->
+    <!-- <p class="underline">Always remember that you are absolutely unique.</p>
+    <p class="overline">Always remember that you are absolutely unique.</p>
+    <p class="line-through">Always remember that you are absolutely unique.</p>
+    <p class="no-underline">Always remember that you are absolutely unique.</p> -->
+
+    <!-- Text-decoration color -->
+    <!-- <p class="underline decoration-rose-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium harum repellendus dolore aperiam laborum hic enim ipsa tempore accusamus eaque similique quo ullam minima itaque, quis cumque sapiente? Aperiam.</p> -->
+    <!-- <p class="  decoration-inherit">Always remember that you are absolutely unique.</p>
+    <p class=" decoration-current">Always remember that you are absolutely unique.</p>
+    <p class="decoration-transparent">Always remember that you are absolutely unique.</p>  -->
+
+    <!-- Text-decoration-style  -->
+    <!-- <p class="underline decoration-solid">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-double">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-dotted">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-dashed">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-wavy">Always remember that you are absolutely unique.</p> -->
+
+
+    <!-- text-decoration-Thickness -->
+    <!-- <p class="underline decoration-auto">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-2">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-4">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-8">Always remember that you are absolutely unique.</p>
+    <p class="underline decoration-from-font">Always remember that you are absolutely unique.</p> -->
+
+    <!-- text-underline-offset  -->
+    <!-- <p class="underline underline-offset-1">Always remember that you are absolutely unique.</p>
+    <p class="underline underline-offset-2">Always remember that you are absolutely unique.</p>
+    <p class="underline underline-offset-4">Always remember that you are absolutely unique.</p>
+    <p class="underline underline-offset-8">Always remember that you are absolutely unique.</p> -->
+
+    <!-- text-transform  -->
+    <!-- <p class="normal-case">Always remember that you are absolutely unique.</p>
+    <p class="lowercase">Always remember that you are absolutely unique.</p>
+    <p class="uppercase">Always remember that you are absolutely unique.</p>
+    <p class="capitalize">Always remember that you are absolutely unique.</p> -->
+
+
+
+    <!-- lacture-5  -->
+    <!-- Border Radius -->
+    <!-- <div class="flex justify-evenly">
+        <div class=" h-28 w-32 bg-rose-400  rounded "></div>
+        <div class=" h-28 w-32 bg-rose-400 rounded-md "></div>
+        <div class=" h-28 w-32 bg-rose-400 rounded-lg "></div>
+        <div class=" h-28 w-32 bg-rose-400 rounded-full "></div>
+    </div> -->
+
+    <!-- rounded-full -->
+    <!-- <button class=" bg-rose-400 ">round</button> -->
+
+    <!-- <div class="flex justify-evenly">
+        <div class=" h-28 w-32 bg-rose-400  rounded-t-lg"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-b-lg"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-r-lg"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-l-lg"></div>
+    </div> -->
+
+    <!-- <div class="flex justify-evenly">
+        <div class=" h-28 w-32 bg-rose-400  rounded-tl-2xl"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-tr-2xl"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-bl-2xl"></div>
+        <div class=" h-28 w-32 bg-rose-400  rounded-br-2xl"></div>
+    </div> -->
+
+    <!-- <div class="flex justify-evenly">
+        <div class="h-28 w-32 bg-red-400 rounded-s-full"></div>
+        <div class="h-28 w-32 bg-red-400 rounded-se-full"></div>
+        <div class="h-28 w-32 bg-red-400 rounded-ee-full"></div>
+        <div class="h-28 w-32 bg-red-400 rounded-es-full"></div>
+    </div> -->
+
+
+    <!-- Border-width  -->
+    <!-- <div class="flex justify-evenly">
+        <div class="h-28 w-32 border border-cyan-700"></div>
+        <div class=" h-28 w-32 border-2 border-cyan-700"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700"></div>
+        <div class="h-28 w-32 border-8 border-cyan-700"></div>
+    </div> -->
+
+    <!-- <div class="flex justify-evenly">
+        <div class="h-28 w-32 border-t-4 border-cyan-700 bg-pink-300"></div>
+        <div class=" h-28 w-32 border-r-4 border-cyan-700 bg-pink-300"></div>
+        <div class="h-28 w-32 border-b-4 border-cyan-700 bg-pink-300"></div>
+        <div class="h-28 w-32 border-l-4 border-cyan-700 bg-pink-300"></div>
+    </div> -->
+
+    <!-- <div class="flex justify-evenly">
+        <div class="h-28 w-32 border-x-4 border-cyan-700 bg-pink-300"></div>
+        <div class=" h-28 w-32 border-y-4 border-cyan-700 bg-pink-300"></div>
+    </div> -->
+
+
+    <!-- Border-color  -->
+    <!-- <div class="flex justify-between">
+        <div class="h-16 w-28 border-4 border-emerald-50 "></div>
+        <div class=" h-16 w-28 border-4 border-emerald-100"></div>
+        <div class="h-16 w-28 border-4 border-emerald-200"></div>
+        <div class="h-16 w-28 border-4
+          border-emerald-300"></div>
+        <div class="h-16 w-28 border-4  border-emerald-400"></div>
+        <div class="h-16 w-28 border-4  border-emerald-500"></div>
+        <div class="h-16 w-28 border-4  border-emerald-600"></div>
+        <div class="h-16 w-28 border-4  border-emerald-700"></div>
+        <div class="h-16 w-28 border-4 border-emerald-800"></div>
+        <div class="h-16 w-28 border-4 border-emerald-900"></div>
+        <div class="h-16 w-28 border-4 border-emerald-950"></div>
+    </div> -->
+
+    <!-- Border-style -->
+    <!-- <div class="flex justify-between">
+        <div class=" h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-dashed"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-solid"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-dotted"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-double"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-hidden"></div>
+        <div class="h-28 w-32 border-4 border-cyan-700 bg-pink-300 border-none"></div>
+    </div>
+     -->
+
+
+    <!-- divide-width  -->
+    <!-- <div class="grid grid-cols-3 divide-x">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class="grid grid-cols-1 divide-y">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class="flex flex-col-reverse divide-y divide-y-reverse">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+
+
+    <!-- divide-color  -->
+    <!-- <div class=" divide-y divide-pink-500">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- divide-style  -->
+    <!-- <div class=" divide-y divide-solid">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class=" divide-y divide-dashed">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class=" divide-y divide-dotted">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class=" divide-y divide-double">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- <div class=" divide-y divide-none">
+        <div class="h-16 w-48 bg-indigo-400 text-center">1</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">2</div>
+        <div class="h-16 w-48 bg-indigo-400 text-center">3</div>
+     </div> -->
+
+    <!-- outline-width -->
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-2 outline-1 ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-2 outline-2 ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-2 outline-4 ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-2 outline-8  ">outline-1</button>
+    </div> -->
+
+    <!-- outline-style  -->
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black  outline-offset-2 outline-1 outline-pink-400 outline ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  outline-offset-2 outline-2 outline-pink-400 outline-dashed">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  outline-offset-2 outline-4 outline-pink-400 outline-dotted">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  outline-offset-2 outline-8  outline-pink-400 outline-double">outline-1</button>
+    </div> -->
+
+    <!-- outline-offset  -->
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-1  ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-2 ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-4  ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black outline outline-offset-8   ">outline-1</button>
+    </div> -->
+
+    <!-- ring-width  -->
+
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring-offset-2 ring rounded ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring-offset-2 ring-2 rounded ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  ring-offset-2 ring-4 rounded">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring-offset-2 ring-8 rounded  ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  ring-2  ring-pink-400 ring-inset">outline-1</button>
+    </div> -->
+
+    <!-- ring-color  -->
+    <!-- <div class="flex justify-evenly">
+        <button class=" h-28 w-32 bg-cyan-900 text-black  ring-offset-2 ring-4  ring-sky-500 rounded">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring-offset-2 ring-8 ring-sky-500 rounded  ">outline-1</button>
+    </div> -->
+
+    <!-- ring-offset-width/offset-color  -->
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring ring-pink-300 ring-offset-1  ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring ring-pink-300 ring-offset-2 ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring ring-pink-300 ring-offset-4  ">outline-1</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black ring ring-pink-300 ring-offset-8   ">outline-1</button>
+    </div> -->
+
+    <!-- shadow -->
+    <!-- <div class="flex justify-evenly m-5">
+        <div class="h-28 w-36 shadow-md "></div>
+        <div class="h-28 w-36 shadow-lg "></div>
+        <div class="h-28 w-36 shadow-xl "></div>
+        <div class="h-28 w-36 shadow-2xl "></div>
+        <div class="h-28 w-36 shadow-inner "></div>
+    </div> -->
+
+    <!-- box-shadow-color  -->
+    <!-- <div class="flex justify-evenly m-5">
+        <div class="h-28 w-36 bg-rose-400 shadow-sm shadow-cyan-800"></div>
+        <div class="h-28 w-36 bg-rose-400 shadow-md shadow-cyan-800"></div>
+        <div class="h-28 w-36 bg-rose-400 shadow-lg shadow-cyan-800"></div>
+        <div class="h-28 w-36  bg-rose-400 shadow-2xl shadow-cyan-800"></div>
+        <div class="h-28 w-36 shadow-inner "></div>
+    </div> -->
+
+    <!-- opacity -->
+    <!-- <div class="flex justify-evenly ">
+        <button class=" h-28 w-32 bg-cyan-900 text-black  opacity-25">button</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  opacity-50">button</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  opacity-75">button</button>
+        <button class=" h-28 w-32 bg-cyan-900 text-black  opacity-100">button</button>
+    </div> -->
+
+    <!-- mix-Blend-Mode  -->
+    <!-- <div class="flex justify-center -space-x-14">
+        <div class="h-36 w-36 bg-sky-600 rounded-full mix-blend-overlay"></div>
+        <div class="h-36 w-36 bg-pink-800 rounded-full mix-blend-overlay"></div>
+    </div> -->
+
+    <!-- background-bled-mode  -->
+
+
+    <!-- lacture-6  -->
+    <!-- FILTERS -->
+
+    <!-- Blur -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="blur-sm">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="blur">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="blur-md">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="blur-lg">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="blur-xl">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="blur-2xl">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Bridhtness -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="brightness-50">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="brightness-100">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="brightness-125">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="brightness-150">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="brightness-75">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="brightness-200">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!--contrast  -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="contrast-50">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="contrast-75">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="contrast-100">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="contrast-125">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="contrast-150">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="contrast-200">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Drop shadow -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="drop-shadow-sm">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="drop-shadow">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="drop-shadow-md">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="drop-shadow-lg">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="drop-shadow-xl">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="drop-shadow-2xl">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Grayscale -->
+    <!-- <div class="flex justify-evenly">
+        <div class="grayscale-0">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="grayscale">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Hue rorate -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="hue-rotate-15">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="hue-rotate-60">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="hue-rotate-90">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="hue-rotate-180">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="-hue-rotate-90">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="-hue-rotate-60">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- invert -->
+    <!-- <div class="flex justify-evenly">
+        <div class="invert-0">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="invert">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Saturate -->
+    <!-- <div class="flex justify-evenly  ">
+        <div class="saturate-50">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="saturate-100">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="saturate-150">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="saturate-200">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Sepia -->
+    <!-- <div class="flex justify-evenly">
+        <div class="sepia-0">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+        <div class="sepia">
+            <img src="img/practice-img.jpg" alt="">
+        </div>
+    </div> -->
+
+    <!-- Backdrop blur -->
+    <!-- backdrop blur -->
+    <!-- <div class="flex justify-center items-center relative">
+    <img class="h-60 w-60" src="img/practice-img.jpg" alt="">
+    <div class="h-32 w-32 absolute z-50 backdrop-blur-3xl"></div>
+  </div> -->
+
+    <!-- backdrop brightness -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute backdrop-brightness-150 size-32"></div>
+</div> -->
+
+    <!-- backdrop contrast -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-contrast-150"></div>
+</div> -->
+
+    <!-- backdrop grayscale -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-grayscale"></div>
+</div> -->
+
+    <!-- backdrop hue rotate -->
+    <!-- <div class="flex items-center justify-evenly h-100vh relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-hue-rotate-180"></div>
+</div> -->
+
+    <!-- backdrop invert -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-invert"></div>
+</div> -->
+
+    <!-- backdrop opacity -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-opacity-95"></div>
+</div> -->
+
+    <!-- backdrop saturate -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-32 backdrop-saturate-200"></div>
+</div> -->
+
+    <!-- backdrop sepia -->
+    <!-- <div class="flex items-center justify-center relative">
+  <img class="size-60" src="img/practice-img.jpg" alt="">
+  <div class="absolute size-33 backdrop-sepia"></div>
+</div> -->
+
+    <!-- Tables -->
+    <!-- Border collapse -->
+    <!-- <table class="border-collapse w-96 border border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-sm">
+        <thead class="bg-slate-50 dark:bg-slate-700">
+          <tr>
+            <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">State</th>
+            <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Indiana</td>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Indianapolis</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Ohio</td>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Columbus</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Michigan</td>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Detroit</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+    <!-- border spacing -->
+    <!-- <table class="border-separate border-spacing-5 w-96 border border-slate-400  bg-whit text-sm shadow-sm">
+        <thead class="bg-slate-50 dark:bg-slate-700">
+          <tr>
+            <th class="w-1/2 border border-slate-400  font-semibold p-4 text-slate-900  text-left">State</th>
+            <th class="w-1/2 border border-slate-400  font-semibold p-4 text-slate-900  text-left">City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-400 p-4 text-slate-500 ">Indiana</td>
+            <td class="border border-slate-400 p-4 text-slate-500 ">Indianapolis</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-400 p-4 text-slate-500">Ohio</td>
+            <td class="border border-slate-400 p-4 text-slate-500">Columbus</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-400  p-4 text-slate-500 dark:text-slate-400">Michigan</td>
+            <td class="border border-slate-400  p-4 text-slate-500 dark:text-slate-400">Detroit</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+    <!-- table layout -->
+
+
+    <!-- <div class="grid grid-cols-3 w-full grid-rows-3 grid-flow-row-dense gap-4 font-mono text-white text-sm text-center font-bold  bg-stripes-purple rounded-lg"> -->
+    <!-- <div class="p-4 col-span-2 rounded-lg bg-purple-300 dark:bg-purple-800 dark:text-purple-400">01</div> -->
+    <!-- <div class="p-4 col-span-2 rounded-lg bg-purple-300 dark:bg-purple-800 dark:text-purple-400">02</div> -->
+    <!-- <div class="p-4 rounded-lg shadow-lg bg-purple-500">03</div> -->
+    <!-- <div class="p-4 rounded-lg bg-purple-300 dark:bg-purple-800 dark:text-purple-400">04</div> -->
+    <!-- <div class="p-4 rounded-lg bg-purple-300 dark:bg-purple-800 dark:text-purple-400">05</div> -->
+    <!-- </div> -->
+
+
+
+    <!-- <div class='flex items-center justify-center min-h-screen'>
+          <div style="border-top-color:transparent" class="w-8 h-8 border-4 border-blue-200 rounded-full animate-spin"></div>
+          <p class="ml-2">search...</p>
+      </div> -->
+    <!-- <div class='flex items-center justify-center min-h-screen'>
+          <button type="button" class="bg-indigo-400 h-max w-max rounded-lg text-white font-bold hover:bg-indigo-300 hover:cursor-not-allowed duration-[500ms,800ms]" disabled>
+              <div class="flex items-center justify-center m-[10px]"> 
+                  <div class="h-5 w-5 border-t-transparent border-solid animate-spin rounded-full border-white border-4"></div>
+                  <div class="ml-2"> Processing... <div>
+              </div>
+          </button>
+      </div> -->
+
+    <!-- Transitions & Animation -->
+
+    <!-- Transition Property -->
+    <!-- <div class='flex items-center justify-center min-h-screen '>
+    <button class="transition duration-200 ease-out px-9  py-3  bg-sky-600 border  text-white rounded-lg ">Button</button>
+</div> -->
+
+    <!-- <div class="min-h-screen flex justify-center items-center">
+            <button class="px-4 py-2 font-semibold text-sm bg-violet-500 text-white rounded-md shadow-sm hover:translate-x-9">Button A</button>
+        </div> -->
+
+    <!--Transition color  -->
+    <!-- <div class="min-h-screen flex justify-center items-center">
+        <button class="transition-colors px-4 py-2 font-semibold text-sm bg-violet-500 text-white rounded-md  hover:translate-y-5 hover:bg-indigo-900">Button A</button>
+    </div> -->
+
+    <!-- <button class="transition-none duration-500 transform px-6 py-2 m-4 inline  hover:bg-indigo-400  hover:text-white  hover:scale-125">None</button>
+
+    <button class="transition-all duration-500 transform px-6 py-2 m-4 inline  hover:bg-indigo-400  hover:text-white hover:scale-125">All</button>
+
+    <button class="transition duration-500 transform px-6 py-2 m-4 inline bg-teal-400 hover:bg-indigo-400 border-2 border-red-500 hover:border-yellow-500 hover:text-white hover:opacity-50 hover:shadow-md hover:scale-125">Default</button>
+
+    <button class="transition-colors duration-500 transform px-6 py-2 m-4 inline  hover:bg-indigo-400 border-2 border-red-500 hover:border-yellow-500 hover:text-white  hover:scale-125">Colors</button>
+
+    <button class="transition-opacity duration-500 transform px-6 py-2 m-4 inline bg-teal-400   hover:text-white hover:opacity-50 h hover:scale-125">Opacity</button>
+
+    <button class="transition-shadow duration-500 transform px-6 py-2 m-4 inline bg-teal-400 hover:bg-indigo-400  hover:text-white shadow hover:shadow-red-500 hover:scale-125">Shadow</button>
+
+    <button class="transition-transform duration-500 transform px-6 py-2 m-4 inline bg-teal-400 hover:bg-indigo-400 border-2  hover:text-white  hover:shadow-md hover:scale-125">Transform</button> -->
+
+    <!-- Duration -->
+
+    <!-- <button class="transition duration-0 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-75  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-100  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-150 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-200  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-300  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-500 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-700  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-1000  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button> -->
+
+
+    <!-- transition timeing function -->
+    <!-- <button class="transition duration-700 ease-linear px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-700 ease-in px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-700 ease-out px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+     <button class="transition duration-700 ease-in-out px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button> -->
+
+    <!-- transition Delay -->
+
+    <!-- <button class="transition delay-0 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-75  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-100  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-150 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-200  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-300  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-500 px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-700  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>
+        <button class="transition delay-1000  px-6 py-2 m-4 inline  bg-slate-500 hover:bg-indigo-400  hover:text-white  hover:scale-125">Button</button>  -->
+
+    <!-- transition spin -->
+    <!-- <div class='flex items-center justify-center min-h-screen'>
+            <button class="h-9 w-40 bg-violet-400">
+              <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-black" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                </path>
+              </svg>
+              <p class="ml-2 ">search...</p>
+        
+            </button> -->
+
+
+    <!-- transition ping -->
+    <!-- <div class="flex items-center justify-center h-screen">
+                <span class="relative inline-flex">
+                    <button type="button" class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white dark:bg-slate-800 transition ease-in-out duration-150 cursor-not-allowed ring-1 ring-slate-900/10 dark:ring-slate-200/20" disabled="">
+                    Transactions
+                    </button>
+                  <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-80"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                  </span>
+                </span>
+              </div> -->
+
+
+    <!-- aransiton pluse -->
+    <!-- <div class="border border-blue-300 shadow rounded-md p-4 max-w-sm mx-auto">
+                <div class="animate-pulse flex space-x-4">
+                  <div class="rounded-full bg-slate-700 h-10 w-10"></div>
+                  <div class="flex-1 space-y-6 py-1">
+                    <div class="h-2 bg-slate-700 rounded"></div>
+                    <div class="space-y-3">
+                      <div class="grid grid-cols-3 gap-4">
+                        <div class="h-2 bg-slate-700 rounded col-span-2"></div>
+                        <div class="h-2 bg-slate-700 rounded col-span-1"></div>
+                      </div>
+                      <div class="h-2 bg-slate-700 rounded"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+    <!-- animasition bounce -->
+    <!-- <div class="h-screen flex justify-center items-center">
+
+                  <div class="animate-bounce bg-rose-400 p-2 w-10 h-10 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                      <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                  </div>
+              </div> -->
+
+
+    <!-- scale-->
+    <!-- <div class="flex justify-center">
+                  <img class="scale-50" src="img/practice-img.jpg" alt="">
+                  <img class="scale-75" src="img/practice-img.jpg" alt="">
+                  <img class="scale-90" src="img/practice-img.jpg" alt="">
+                  <img class="scale-110" src="img/practice-img.jpg" alt="">
+                  <img class="scale-125" src="img/practice-img.jpg" alt="">
+                </div>
+                  <img class="scale-150" src="img/practice-img.jpg" alt="">
+                  <img class="scale-x-100" src="img/practice-img.jpg" alt="">
+                  <img class="scale-y-95" src="img/practice-img.jpg" alt=""> -->
+
+    <!-- Rotate -->
+    <!-- <div class="flex">
+                    <img class="rotate-1" src="img/practice-img.jpg" alt="">
+                      <img class="rotate-2" src="img/practice-img.jpg" alt="">
+                      <img class="rotate-3" src="img/practice-img.jpg" alt="">
+                      <img class="rotate-6" src="img/practice-img.jpg" alt="">
+                    </div>
+                    <div class="flex space-y-20">
+
+                        <img class="rotate-12" src="img/practice-img.jpg" alt="">
+                        <img class="rotate-45" src="img/practice-img.jpg" alt="">
+                        <img class="rotate-90" src="img/practice-img.jpg" alt="">
+                        <img class="rotate-180" src="img/practice-img.jpg" alt=""> 
+
+                    </div> -->
+
+    <!-- transalte -->
+    <!-- <div class="flex">
+
+                        <img class="translate-x-7" src="img/practice-img.jpg" alt="">
+                            <img class="translate-x-1/3" src="img/practice-img.jpg" alt="">
+                        </div>
+                            <img class="translate-y-14" src="img/practice-img.jpg" alt="">
+                            <img class="translate-y-2/3" src="img/practice-img.jpg" alt="">  -->
+
+    <!-- Skew -->
+    <!-- <div class="flex space-x-4">
+                            <img class="skew-x-1" src="img/practice-img.jpg" alt="">
+                            <img class="skew-x-3" src="img/practice-img.jpg" alt="">
+                            <img class="skew-x-6" src="img/practice-img.jpg" alt="">
+                            <img class="skew-x-12" src="img/practice-img.jpg" alt=""> 
+                        </div>
+
+                        <div class="flex space-x-8 mt-9">
+                            <img class="skew-y-1" src="img/practice-img.jpg" alt="">
+                            <img class="skew-y-3" src="img/practice-img.jpg" alt="">
+                            <img class="skew-y-6" src="img/practice-img.jpg" alt="">
+                            <img class="skew-y-12" src="img/practice-img.jpg" alt=""> 
+                        </div> -->
+
+
+    <!-- Transform origin -->
+    <!-- <div class="flex mt-9 space-x-4">
+                            <img class="origin-top rotate-1" src="img/practice-img.jpg" alt="">
+                              <img class="rotate-2 origin-top-right" src="img/practice-img.jpg" alt="">
+                              <img class="rotate-3 origin-right" src="img/practice-img.jpg" alt="">
+                              <img class="rotate-6 origin-bottom-right" src="img/practice-img.jpg" alt="">
+                            </div>
+                            <div class="flex mt-9 space-x-36">
+        
+                                <img class="rotate-12 origin-bottom" src="img/practice-img.jpg" alt="">
+                                <img class="rotate-45 origin-left" src="img/practice-img.jpg" alt="">
+                                <img class="rotate-90 origin-top-left" src="img/practice-img.jpg" alt="">
+                                <img class="rotate-180 origin-bottom-left" src="img/practice-img.jpg" alt=""> 
+                            </div> -->
+
+    <!-- Interactivity -->
+    <!-- Accent color -->
+    <!-- <div class="h-screen flex items-center justify-center">
+                                <label class="ml-5 text-5xl ">
+                                    <input type="checkbox" class="h-9 w-9 " checked> Tailwind css
+                                  </label>
+                                  <label class=" ml-6 text-5xl text-wrap">
+                                    <input type="checkbox" class="accent-pink-500 h-9 w-9 " checked> checkbox
+                                </label>
+                            </div> -->
+
+    <!-- Appearance -->
+    <!-- <div class="max-w-sm mx-auto items-center">
+                                <div class="flex my-6">
+                                  <select class="w-20">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                    <option>Maybe</option>
+                                  </select>
+                                  <div class="mx-6 text-slate-900 text-sm font-semibold ">
+                                    Default browser styles applied
+                                  </div>
+                                </div>
+                                <div class="flex my-6 items-center">
+                                  <div class="grid">
+                                    <svg class="pointer-events-none z-10 right-1 relative col-start-1 row-start-1 h-4 w-4 self-center justify-self-end forced-colors:hidden" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                      <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <select class="w-20 appearance-none forced-colors:appearance-auto border row-start-1 col-start-1 rounded-lg bg-slate-50  hover:border-cyan-500  hover:bg-white border-slate-300  text-slate-700  px-2">
+                                      <option>Yes</option>
+                                      <option>No</option>
+                                      <option>Maybe</option>
+                                    </select>
+                                  </div>
+                                  <div class="mx-6 text-slate-900 text-sm font-semibold ">
+                                    Remove default browser styles
+                                  </div>
+                                </div>
+                              </div> -->
+
+    <!-- Cursor -->
+    <!-- <div class="grid grid-cols-6 space-y-3">
+
+            <button type="button" class="cursor-auto bg-purple-300 p-2 w-28 ">auto</button>
+            <button type="button" class="cursor-default bg-purple-300 p-2 w-28 ">default</button>
+            <button type="button" disabled class="cursor-pointer bg-purple-300 p-2 w-28">pointer</button>              
+            <button type="button" class="cursor-wait bg-purple-300 p-2 w-28 "> wait</button>
+            <button type="button" disabled class="cursor-move bg-purple-300 p-2 w-28">move</button>
+            <button type="button" class="cursor-help bg-purple-300 p-2 w-28 ">help</button>
+            <button type="button" class="cursor-not-allowed bg-purple-300 p-2 w-28 ">not-allowed</button>
+            <button type="button" disabled class="cursor-none bg-purple-300 p-2 w-28"> none </button>
+            <button type="button" class="cursor-context-menu bg-purple-300 p-2 w-28 ">  menu</button>
+            <button type="button" class="cursor-progress bg-purple-300 p-2 w-28 ">progress </button>
+            <button type="button" disabled class="cursor-cell bg-purple-300 p-2 w-28">cell</button>
+            <button type="button" class="cursor-crosshair bg-purple-300 p-2 w-28 "> hair</button>
+            <button type="button" class="cursor-vertical-text bg-purple-300 p-2 w-28 ">text</button>
+            <button type="button" disabled class="cursor-alias bg-purple-300 p-2 w-28">alias </button>
+            <button type="button" class="cursor-copy bg-purple-300 p-2 w-28 ">copy</button>
+            <button type="button" class="cursor-no-drop bg-purple-300 p-2 w-28 "> drop</button>
+            <button type="button" disabled class="cursor-grab bg-purple-300 p-2 w-28">grab</button>
+            <button type="button" class="cursor-grabbing bg-purple-300 p-2 w-28 ">grabbing</button>
+            <button type="button" class="cursor-all-scroll bg-purple-300 p-2 w-28 ">scroll</button>
+            <button type="button" disabled class="cursor-col-resize bg-purple-300 p-2 w-28">col </button>
+            <button type="button" class="cursor-n-resize bg-purple-300 p-2 w-28 ">n</button>
+            <button type="button" class="cursor-e-resize bg-purple-300 p-2 w-28 ">e</button>
+            <button type="button" disabled class="cursor-s-resize bg-purple-300 p-2 w-28">s </button>
+            <button type="button" class="cursor-w-resize bg-purple-300 p-2 w-28 ">w </button>
+            <button type="button" class="cursor-ne-resize bg-purple-300 p-2 w-28 "> n</button>
+            <button type="button" disabled class="cursor-nw-resize bg-purple-300 p-2 w-28">nw</button>
+            <button type="button" class="cursor-se-resize bg-purple-300 p-2 w-28 ">se </button>
+            <button type="button" class="cursor-sw-resize bg-purple-300 p-2 w-28 ">sw</button>
+            <button type="button" disabled class="cursor-ew-resize bg-purple-300 p-2 w-28">e </button>
+            <button type="button" class="cursor-ns  bg-purple-300 p-2 w-28 "></button>
+            <button type="button" class="cursor-nesw-resize bg-purple-300 p-2 w-28 ">news</button>
+            <button type="button" disabled class="cursor-nwse-resize bg-purple-300 p-2 w-28">nwse</button>
+            <button type="button" class="cursor-zoom-in bg-purple-300 p-2 w-28 ">zoom </button>
+            <button type="button" class="cursor-zoom-out bg-purple-300 p-2 w-28 ">cursor-zoom-out</button>
+            <button type="button" class="cursor-text bg-purple-300 p-2 w-28 ">text</button>
+            
+        </div> -->
+
+    <!--  caret color -->
+    <!-- <textarea class="caret-pink-500  bg-slate-300"></textarea> -->
+
+    <!-- pointer Events -->
+    <!-- <div class="flex justify-evenly items-center">
+
+        <div class="flex flex-col">
+            <p class="font-medium text-sm text-slate-500 font-mono mb-3  ">pointer-events-auto</p>
+            <div class="relative rounded-lg shadow-sm w-full">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-auto">
+                <svg class="absolute text-slate-400 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <input type="text" placeholder="Search" class="font-sans block text-sm w-full pl-10 py-2 px-3 ring-1 ring-slate-900/10 text-slate-500 rounded-lg dark:bg-slate-800 dark:ring-0 dark:highlight-white/5 dark:text-slate-400">
+            </div>
+          </div>
+    
+          <div class="flex flex-col">
+            <p class="font-medium text-sm text-slate-500 font-mono mb-3 dark:text-slate-400">pointer-events-none</p>
+            <div class="relative rounded-lg shadow-sm w-full">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg class="absolute text-slate-400 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <input type="text" placeholder="Search" class="font-sans block text-sm w-full pl-10 py-2 px-3 ring-1 ring-slate-900/10 text-slate-500 rounded-lg dark:bg-slate-800 dark:ring-0 dark:highlight-white/5 dark:text-slate-400">
+            </div>
+          </div>
+    </div>
+ -->
+
+    <!-- Resize -->
+    <!-- <textarea class="resize-none  bg-slate-300"></textarea>
+    <textarea class="resize-y  bg-slate-300"></textarea>
+    <textarea class="resize-x  bg-slate-300"></textarea>
+    <textarea class="resize  bg-slate-300"></textarea> -->
+
+    <!-- scroll Behavior-->
+
+    <!-- <div class="flex items-center justify-evenly h-screen">
+
+        <div class="scroll-auto overflow-y-scroll  
+            bg-green-400 p-2 w-1/4 h-24"> 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae incidunt expedita omnis eligendi cumque aspernatur amet quis illum, et similique quasi totam repellat dolore accusamus harum beatae. Voluptate, nesciunt.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe ipsa dicta magnam? Voluptate blanditiis, nemo laborum voluptates tempora facere possimus quam officiis dignissimos fugit officia sequi neque a dolorem.
+
+        </div> 
+        <div class="scroll-smooth overflow-x-scroll  
+            bg-green-400 p-2 w-1/4 h-24"> 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae incidunt expedita omnis eligendi cumque aspernatur amet quis illum, et similique quasi totam repellat dolore accusamus harum beatae. Voluptate, nesciunt.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe ipsa dicta magnam? Voluptate blanditiis, nemo laborum voluptates tempora facere possimus quam officiis dignissimos fugit officia sequi neque a dolorem.
+
+        </div>
+    </div>   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
+</html>
+
+
+<!-- component -->
+
+
+
+</body>
+
 </html>
