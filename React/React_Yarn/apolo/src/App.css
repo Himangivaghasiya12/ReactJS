@@ -1,0 +1,10 @@
+div{
+  height: 200px;
+  background-color: purple;
+  border:1px solid black;
+  flex-grow: 1;
+}
+
+.maindiv{
+  display: flex;
+}
