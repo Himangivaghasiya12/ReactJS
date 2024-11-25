@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="word.css">
+    <script async src="word.js"></script>
+</head>
+
+<body>
+    <section>
+        <h2>Word Counter</h2>
+        <div class="container">
+            <div class="textField">
+                <div class="textFieldDisplay">
+                    <p>Words: <span class="words">0</span></p>
+                    <p>Characters: <span class="characters">0</span></p>
+                    <button class="reset">reset</button>
+                </div>
+                <div class="textFieldArea">
+                    <textarea id="textInput" required spellcheck="false"></textarea>
+                    <span>Start Typing...</span>
+                </div>
+            </div>
+            <div class="wordCount">
+                <h4>Details</h4>
+                <p>Words: <span class="words">0</span></p>
+                <p>Characters: <span class="characters">0</span></p>
+                <p>Sentences: <span id="sentences">0</span></p>
+                <p>Paragraphs: <span id="paragraphs">0</span></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
